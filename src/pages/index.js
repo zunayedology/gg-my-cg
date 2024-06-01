@@ -39,7 +39,10 @@ const Home = () => {
 
   return (
     <div className="container mx-auto p-8 dark:bg-gray-900 dark:text-gray-100">
-      <h1 className="text-3xl mb-8">CGPA Calculator</h1>
+      <h1 className="text-5xl mb-8">GG mah CG</h1>
+      <p className="mb-5">
+        It's a simple CGPA Calculator App built using Next.js, TailwindCSS, and Shadcn UI.
+      </p>
       <DarkModeToggle />
       {semesters.map((semester, index) => (
         <Semester
@@ -50,7 +53,7 @@ const Home = () => {
           handleCourseNumberChange={handleCourseNumberChange}
         />
       ))}
-      <button onClick={handleAddSemester} className="bg-blue-500 text-white py-2 px-4 rounded mb-4">
+      <button onClick={handleAddSemester} className="bg-blue-500 text-white py-2 px-4 rounded mb-4 mr-2 ml-2">
         Add Semester
       </button>
       <button onClick={calculateCgpa} className="bg-green-500 text-white py-2 px-4 rounded mb-4">

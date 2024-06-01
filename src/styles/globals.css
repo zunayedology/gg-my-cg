@@ -4,6 +4,6 @@
 
 /* Add some base dark mode styles */
 html.dark {
-  background-color: #1a202c; /* Tailwind's gray-900 */
-  color: #cbd5e0; /* Tailwind's gray-300 */
+  background-color: #111827; /* Tailwind's gray-900 */
+  color: #1A202C; /* Tailwind's gray-300 */
 }

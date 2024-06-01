@@ -8,7 +8,7 @@ const Semester = ({ index, courses, handleCourseChange, handleCourseNumberChange
       <input
         type="number"
         placeholder="Number of Courses"
-        className="border p-2 mb-4 w-full"
+        className="border p-2 mb-4 w-full bg-white dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600"
         onChange={(e) => handleCourseNumberChange(index, e.target.value)}
       />
       {courses.map((course, courseIndex) => (
