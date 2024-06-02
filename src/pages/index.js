@@ -41,7 +41,7 @@ const Home = () => {
     <div className="container mx-auto p-8 dark:bg-gray-900 dark:text-gray-100">
       <h1 className="text-5xl mb-8">GG mah CG</h1>
       <p className="mb-5">
-        It's a simple CGPA Calculator App built using Next.js, TailwindCSS, and Shadcn UI.
+        It is a simple CGPA Calculator App built using Next.js, TailwindCSS, and Shadcn UI.
       </p>
       <DarkModeToggle />
       {semesters.map((semester, index) => (
