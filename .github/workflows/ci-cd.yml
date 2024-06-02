@@ -28,7 +28,7 @@ jobs:
       run: npm test
 
     - name: Build Docker image
-      run: docker build -t cgpa-calculator .
+      run: docker build -t gg-my-cg .
 
     - name: Deploy to Vercel
       uses: amondnet/vercel-action@v20
