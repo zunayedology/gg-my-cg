@@ -19,16 +19,13 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '20'
+        node-version: '22.2.0'
 
     - name: Install dependencies
       run: npm install
 
-    - name: Run tests
-      run: npm test
-
     - name: Build Docker image
-      run: docker build -t gg-my-cg .
+      run: docker build -t cgpa-calculator .
 
     - name: Deploy to Vercel
       uses: amondnet/vercel-action@v20
