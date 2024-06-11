@@ -43,7 +43,7 @@ const Home = () => {
 
   return (
     <div className="container mx-auto p-8 dark:bg-gray-900 dark:text-gray-100">
-      <h1 className="text-3xl mb-8">GG My CG</h1>
+      <h1 className="text-3xl mb-8">CGmate</h1>
       <DarkModeToggle />
       {semesters.map((semester, index) => (
         <Semester
