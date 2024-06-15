@@ -68,6 +68,10 @@ const Home = () => {
         </button>
       </div>
       {cgpa !== null && <div className="mt-4 text-xl">Your CGPA: {cgpa.toFixed(2)}</div>}
+
+      <footer>
+        <p>Developed with ❤️ by <a href="https://zunayedology.github.io/">Zunayed</a></p>
+      </footer>
     </div>
   );
 };
